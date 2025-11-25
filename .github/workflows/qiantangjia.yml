@@ -1,0 +1,20 @@
+name: qiantangjia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiantangjia
+        env:
+          jnppq55: ${{ secrets.jnppq55 }}
+        run: |
+          echo $jnppq55 | jq -r .sui1 | /bin/bash
+          echo $nc66819 | jq -r .yiglu3 | /bin/bash
+          echo $l7351 | jq -r .hi196 | /bin/bash
+
