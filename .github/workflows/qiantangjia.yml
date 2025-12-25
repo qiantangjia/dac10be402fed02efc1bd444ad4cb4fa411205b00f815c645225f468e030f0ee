@@ -2,9 +2,8 @@ name: qiantangjia
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
-
-jobs:  # 24450
+    - cron: '33 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +11,13 @@ jobs:  # 24450
       - uses: actions/checkout@v4
       - name: qiantangjia
         env:
-          jnppq55: ${{ secrets.jnppq55 }}
+          caaa613: ${{ secrets.caaa613 }}
         run: |
-          echo $jnppq55 | jq -r .sui1 | /bin/bash
-          echo $nc66819 | jq -r .yiglu3 | /bin/bash
-          echo $l7351 | jq -r .hi196 | /bin/bash
+          echo $caaa613 | jq -r .l3331 | /bin/bash
+          echo $n783 | jq -r .wspix7 | /bin/bash
+          echo $e68 | jq -r .x9904 | /bin/bash
+          echo $ms53407 | jq -r .mc02858 | /bin/bash
+          echo $e58 | jq -r .o73833 | /bin/bash
+          echo $euwf23950 | jq -r .xbbnp4897 | /bin/bash
+          echo $ec23 | jq -r .pdy56 | /bin/bash
 
