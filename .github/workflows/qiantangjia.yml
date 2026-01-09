@@ -1,8 +1,9 @@
 name: qiantangjia
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '48 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiantangjia
         env:
-          caaa613: ${{ secrets.caaa613 }}
+          h494: ${{ secrets.h494 }}
         run: |
-          echo $caaa613 | jq -r .l3331 | /bin/bash
-          echo $n783 | jq -r .wspix7 | /bin/bash
-          echo $e68 | jq -r .x9904 | /bin/bash
-          echo $ms53407 | jq -r .mc02858 | /bin/bash
-          echo $e58 | jq -r .o73833 | /bin/bash
-          echo $euwf23950 | jq -r .xbbnp4897 | /bin/bash
-          echo $ec23 | jq -r .pdy56 | /bin/bash
+          echo $h494 | jq -r .rssf2877 | /bin/bash
+          echo $bmb1481 | jq -r .kwrg5319 | /bin/bash
+          echo $zhv9 | jq -r .uylm851 | /bin/bash
+          echo $krw23 | jq -r .p7 | /bin/bash
+          echo $jrl5 | jq -r .wmxvw64864 | /bin/bash
+          echo $ofv837 | jq -r .tisr081 | /bin/bash
 
